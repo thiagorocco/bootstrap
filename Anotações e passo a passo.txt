@@ -58,4 +58,12 @@
         </div>
     </section>
 
-    9. 
+    9. Rodapé. Logo após a tag section das imagens sequênciais insira esse código:
+
+   <footer class="container bg-black pt-3 pb-3">
+        <div class="row align-items-center">
+            <p class="text-secondary text-center">
+                Todos os direitos reservados
+            </p>
+        </div>
+    </footer>
