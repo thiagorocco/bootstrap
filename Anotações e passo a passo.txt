@@ -21,7 +21,7 @@
             <p class="text-secondary">Este é meu primeiro contato com Bootstrap</p>
         </header>
     
-    6. Criando uma navbar. Logo após a tag header adicione esse código:
+    6. Navbar. Logo após a tag header adicione esse código:
     
     <nav class="container bg-black">
         <ul class="nav justify-content-end">
@@ -40,10 +40,22 @@
         </ul>
     </nav>  
 
-    7. Inserindo imagens. Logo após a tag nav, insira o código:
+    7. Imagens. Logo após a tag nav, insira o código:
     
     <section class="container p-0">
         <img src="./assets/bg.png" style="width: 100%;">
     </section>
 
     Aqui nós tiramos o padding do container para que a imagem ocupe todo o container
+
+    8. Linhas e colunas. Logo após a tag section referente à imagem de background insira esse código:
+    
+    <section class="container p-0">
+        <div class="row">
+            <img src="./assets/html.png" class="col">
+            <img src="./assets/css.png" class="col">
+            <img src="./assets/js.png" class="col">
+        </div>
+    </section>
+
+    9. 
