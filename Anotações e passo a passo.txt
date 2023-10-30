@@ -39,3 +39,11 @@
             </li>
         </ul>
     </nav>  
+
+    7. Inserindo imagens. Logo após a tag nav, insira o código:
+    
+    <section class="container p-0">
+        <img src="./assets/bg.png" style="width: 100%;">
+    </section>
+
+    Aqui nós tiramos o padding do container para que a imagem ocupe todo o container
