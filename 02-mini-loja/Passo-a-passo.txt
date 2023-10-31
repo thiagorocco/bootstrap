@@ -27,5 +27,32 @@ Criando o layout para uma mini loja virtual
     </header>
 
 03 - Navbar:
+    <nav class="nav container bg-dark p-3 justify-content-end">
+        <ul class="nav">
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white">Shoes</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link text-white">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+04 - Section:
+    <section class="container bg-dark text-white text-center p-5">
+        <h1>Veja nossos tênis</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque soluta veritatis consequuntur ducimus
+            mollitia iste natus sed maxime dolorem officiis. </p>
+        <div>
+            <a href="" class="btn btn-primary m-1">Shoes</a>
+            <a href="" class="btn btn-secondary m-1">About</a>
+        </div>
+    </section>
 
     
