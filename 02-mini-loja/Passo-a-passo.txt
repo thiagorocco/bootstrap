@@ -55,4 +55,40 @@ Criando o layout para uma mini loja virtual
         </div>
     </section>
 
+05 - Cards - dos tênis:
+    Logo após a última section insira esse código:
+
+    <section class="container text-center">
+
+        <div class="row row-cols-auto justify-content-center">
+
+            <div class="card p-3 m-2">
+                <img src="./assets/1.jpg" class="card-img-top mb-2">
+                <h1 class="card-title">Tennis 1</h1>
+                <p class="card-subtitle">Este é um tenis de marca</p>
+                <a href="#" class="btn btn-primary mt-2">Comprar</a>
+            </div>
+            <div class="card p-3 m-2">
+                <img src="./assets/2.jpg" class="card-img-top mb-2">
+                <h1 class="card-title">Tennis 1</h1>
+                <p class="card-subtitle">Este é um tenis de marca</p>
+                <a href="#" class="btn btn-primary mt-2">Comprar</a>
+            </div>
+            <div class="card p-3 m-2">
+                <img src="./assets/3.jpg" class="card-img-top mb-2">
+                <h1 class="card-title">Tennis 1</h1>
+                <p class="card-subtitle">Este é um tenis de marca</p>
+                <a href="#" class="btn btn-primary mt-2">Comprar</a>
+            </div>
+            <div class="card p-3 m-2">
+                <img src="./assets/4.jpg" class="card-img-top mb-2">
+                <h1 class="card-title">Tennis 1</h1>
+                <p class="card-subtitle">Este é um tenis de marca</p>
+                <a href="#" class="btn btn-primary mt-2">Comprar</a>
+            </div>
+
+
+        </div>
+    </section>
+
     
