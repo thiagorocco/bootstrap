@@ -91,4 +91,6 @@ Criando o layout para uma mini loja virtual
         </div>
     </section>
 
+06 - Footer:
     
+        
