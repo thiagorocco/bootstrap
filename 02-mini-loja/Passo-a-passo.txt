@@ -93,4 +93,25 @@ Criando o layout para uma mini loja virtual
 
 06 - Footer:
     
-        
+    Logo abaixo da section referente aos cards, adicione este código:
+
+    <footer class="container border-top pt-4 mt-4 text-center">
+        <p>&copy; 2023, Shoes Store</p>
+    </footer>    
+
+07 - Fontes Personalizadas:
+    
+    Importe fontes personalizada do Google Fonts. Escolha a fonte e na opção import copie e cole o código em sua
+    página html.
+    
+    Cole este código dentro da tag head logo no início:    
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Roboto:ital,wght@1,900&display=swap');
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+
+
