@@ -39,13 +39,29 @@ main{
     align-items: center;
 }
 
-03 - Iniciando a tela de login com a seção da logo:
+03 - Formulário de login:
 
     <main>
         <section class="shadow rounded-4 p-4  text-center">
             <img src="./assets/logo.png" class="m-4">
             <p>Digite seu e-mail e senha:</p>
-        </section>
-    </main> 
 
+            <div class="form-floating">
+                <input type="email" class="form-control m-2" placeholder="E-mail">
+                <label>E-mail</label>
+            </div>
+
+            <div class="form-floating">
+                <input type="password" class="form-control m-2" placeholder="Senha">
+                <label>Senha</label>
+            </div>
+
+            <div>
+                <label><input type="checkbox" class="mx-2">Lembrar</label>
+            </div>
+
+            <button class="btn btn-primary mt-3">Entrar</button>
+
+        </section>
+    </main>
 
