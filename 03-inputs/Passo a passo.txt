@@ -1,3 +1,5 @@
+01 - Crie a página inicial html com o seguinte código:
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -11,12 +13,39 @@
 </head>
 
 <body>
+
+</body>
+
+</html>
+
+02 - Em assets/style.css insira o código:
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+03 - Iniciando a tela de login com a seção da logo:
+
     <main>
         <section class="shadow rounded-4 p-4  text-center">
             <img src="./assets/logo.png" class="m-4">
             <p>Digite seu e-mail e senha:</p>
         </section>
-    </main>
-</body>
+    </main> 
 
-</html>
+
